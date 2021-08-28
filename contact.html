@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Info</title>
+  </head>
+  <body>
+    <h1>Paul's contact information</h1>
+    <p>Email: paul@foo.bar</p>
+    <p>Phone: +64 21 123 456</p>
+    <hr>
+
+    <form action="mailto:kiwi.dev@outlook.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label for="YourName">Your Name</label></td>
+          <td><input type="text" name="YourName"></td>
+        </tr>
+        <tr>
+          <td><label for="YourEmail">Your Email</label></td>
+          <td><input type="email" name="YourEmail"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="YourMessage">Your Message</label>
+            <br>
+            <textarea name="YourMessage" rows="5" cols="30"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
